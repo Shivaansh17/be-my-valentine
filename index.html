@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerna, Will You Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="container">
+        <!-- Terminal Window -->
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn btn-close"></span>
+                    <span class="btn btn-minimize"></span>
+                    <span class="btn btn-maximize"></span>
+                </div>
+                <span class="terminal-title">love.exe</span>
+            </div>
+            <div class="terminal-body">
+                <div class="code-line">
+                    <span class="prompt">$</span>
+                    <span class="command typing-animation">git commit -m "Will you be my valentine?"</span>
+                </div>
+                <div class="code-line">
+                    <span class="output">[Shivansh Rastogi] Will you be my valentine?</span>
+                </div>
+                <div class="code-line">
+                    <span class="output">1 file changed, 1 insertion(+), 1 deletion(-)</span>
+                </div>
+                <div class="code-line">
+                    <span class="output">Your heart: ❤️ → 💕</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="heart-container">
+                <div class="heart" id="heart"></div>
+            </div>
+            
+            <h1 class="title glitch" data-text="Prerna, My Love">
+                Prerna, My Love
+            </h1>
+            <h2 class="subtitle-main">Will You Be My Valentine? 💕</h2>
+            
+            <div class="subtitle">
+                <span class="code-snippet">const love = {</span>
+                <span class="code-snippet">  you: "the most amazing person I've ever met",</span>
+                <span class="code-snippet">  me: "hopelessly in love with you",</span>
+                <span class="code-snippet">  us: "meant to be together forever"</span>
+                <span class="code-snippet">};</span>
+            </div>
+
+            <div class="proposal-text">
+                <p>Every line of code I write,</p>
+                <p>Every function I debug...</p>
+                <p class="highlight">I think of you.</p>
+                <p>You're my favorite dependency.</p>
+            </div>
+
+            <div class="buttons-container">
+                <button class="btn-yes" id="btnYes">
+                    <span>Yes!</span>
+                    <div class="btn-ripple"></div>
+                </button>
+                <button class="btn-no" id="btnNo">
+                    <span>No</span>
+                </button>
+            </div>
+
+            <!-- Hidden message for Yes -->
+            <div class="success-wrapper" id="successWrapper" style="display: none;">
+                <div class="success-message" id="successMessage">
+                    <div class="celebration">
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                        <div class="confetti"></div>
+                    </div>
+                    <h2>🎉 You made my day! 🎉</h2>
+                <p class="success-text">I promise to:</p>
+                <ul class="promises">
+                    <li>Always push to your branch</li>
+                    <li>Never break your build</li>
+                    <li>Debug life's problems together</li>
+                    <li>Merge our hearts forever</li>
+                </ul>
+                <div class="final-code">
+                    <pre><code>while (alive) {
+    iWillAlwaysLove(you);
+    beHappy();
+}</code></pre>
+                </div>
+                <div class="floating-hearts">
+                    <span class="floating-heart">💕</span>
+                    <span class="floating-heart">💖</span>
+                    <span class="floating-heart">💗</span>
+                    <span class="floating-heart">💝</span>
+                    <span class="floating-heart">💞</span>
+                </div>
+                </div>
+            </div>
+
+            <!-- Syntax Error Popup -->
+            <div class="error-popup" id="errorPopup">
+                <div class="error-header">
+                    <span class="error-icon">⚠️</span>
+                    <span class="error-title">Syntax Error</span>
+                </div>
+                <div class="error-body">
+                    <div class="error-code">
+                        <span class="error-line">❌ <span class="error-text" id="errorText"></span></span>
+                    </div>
+                    <div class="error-message" id="errorMessage"></div>
+                </div>
+                <div class="error-footer">
+                    <button class="error-ok-btn" id="errorOkBtn">OK, I'll fix it! 💕</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Code Particles -->
+        <div class="code-particles">
+            <span class="particle">&lt;/&gt;</span>
+            <span class="particle">{}</span>
+            <span class="particle">()</span>
+            <span class="particle">[]</span>
+            <span class="particle">=&gt;</span>
+            <span class="particle">===</span>
+            <span class="particle">&&</span>
+            <span class="particle">||</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
